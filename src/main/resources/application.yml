@@ -1,0 +1,24 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  application:
+    name: arithmetic-operations-app
+server:
+  port: 5050
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  openapi:
+    info:
+      title: Arithmetic Operations API
+      version: 1.0
+      description: API for performing basic arithmetic operations.
+      contact:
+        name: Name Surname
+        email: myemail@develhope.com
+      license:
+        name: MIT
+        url: https://it.wikipedia.org/wiki/Licenza_MIT
